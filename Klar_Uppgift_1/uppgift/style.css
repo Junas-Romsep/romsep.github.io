@@ -1,0 +1,181 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+     /*Nav*/
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    
+}
+
+nav.logo{
+    padding: 22px 20px;
+    height: 50px;
+    transition: 0.3s;
+    color: white;
+    
+}
+.logo{
+    font-size: 24px;
+
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    line-height: 0px;
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/*Här är backgrund på img*/
+section.BackgroundIMG_Index{
+    width: 100%;
+    height: 90vh;
+    background: url(Bilder/Bakcground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundIMG_KontaktaOss{
+    width: 100%;
+    height: 90vh;
+    background: url(Bilder/fox-forest-minimalism-artwork-es.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundIMG_OmMig{
+    width: 100%;
+    height: 90vh;
+    background: url(Bilder/ouioui.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundIMG_Portfolio{
+    width: 100%;
+    height: 90vh;
+    background: url(Bilder/bk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Här är text */
+.Text_Content{
+    margin-top: 80px;
+}
+
+.Text_Content {
+    width:900px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.Text_Content .textbox{
+ width: 400px;
+ height: 150px;
+}
+/*Här är backgrund på img som då lugger under*/
+section.BackgroundFooter_Index{
+    width: 100%;
+    height: 200px;
+    background: url(Bilder/egg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundFooter_OmMig{
+    width: 100%;
+    height: 200px;
+    background: url(Bilder/salty.png);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundFooter_Portfolio{
+    width: 100%;
+    height: 200px;
+    background: url(Bilder/map_background-1920x200.png);
+    background-size: cover;
+    background-position: center;
+}
+section.BackgroundFooter_KontaktaMig{
+    width: 100%;
+    height: 200px;
+    background: url(Bilder/Strip.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Footer*/
+.footer{
+    background-color: #303030;
+    color: white;
+    height: 400px;
+    position: relative;
+    text-decoration: none;
+
+}
+.footer .footer_content{
+   
+    height: 350px;
+    display: flex;
+    
+}
+.footer .footer_content .footer_section {
+    flex: 1;
+    border: 1px solid gray;
+    padding: 20px;
+
+}   
+.footer .footer_content h1,
+.footer .footer_content h2{
+ color: gray;
+}
+.footer .footer_content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.footer .footer-bottom{
+    background-color: #303030;
+    color:gray;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
